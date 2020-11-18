@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <html>
+        <head>
+           <title>HTML/CSS</title>
+            <link rel="stylesheet" href="style.css"> 
+     </head>
+     
+     <body>
+      <ul>
+        <li><a href="#Navbar">Navbar</a></li>
+       <li><a href="#Home">Home</a></li>
+       <li><a href="#Link">Link</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+          <li>
+            <input class="searchBar" type="text"name="arama"placeholder="Search..."/>
+          <input class="searchButton" type="submit"name="gonder"value="Search"/>
+          </ul>
+          <br>
+          <br>  
+          <hr class="çizgi4">
+          <br>
+          <br> 
+            <h2>Animated Buttons - "Pressed Effect"</h2>
+
+<button class="button">Click Me</button>
+<br>
+<br>
+
+<hr class="çizgi4">
+<br>
+<br>
+
+
+<div class="mainContainer">  
+
+   <div class="uploadBar">
+        <div class="chooseFile">
+            Choose file
+        </div>
+
+        <div class="browse">
+            Browse
+        </div>
+
+        <button class="button">
+            Button
+        </button>
+    </div>
+
+    </div>
+
+</div>
+<br>
+<br>  
+<hr class="çizgi4">
+<br>
+<br>      
+<div class="alert info">
+  <span class="closebtn">&times;</span>  
+  <strong>Info!</strong> Indicates a neutral informative change or action.
+</div>
+<script>
+  var close = document.getElementsByClassName("closebtn");
+  var i;
+  
+  for (i = 0; i < close.length; i++) {
+    close[i].onclick = function(){
+      var div = this.parentElement;
+      div.style.opacity = "0";
+      setTimeout(function(){ div.style.display = "none"; }, 600);
+    }
+  }
+  </script>
+     <br>
+     <br>  
+     <hr class="çizgi4">
+     <br>
+     <br>  
+     
+     
+     <div align="center" class="card text-center">
+      <div class="card-header">Featured</div>
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+      <button class="button2">Go somewhere</button>
+       </div>
+      <div class="card-footer text-muted">2 days ago</div>
+    </div>
+     
+     </body>
+     </html>
+     
+</body>
+</html>
